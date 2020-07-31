@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" type="text/css" href="styles-2.css" />
+        <meta name="description" content="Anthony Kwang is a Web Developer in training and is interested between the interstitial space of technology and design.">
+        <meta name="keywords" content="HTML, CSS, JQuery, GitHub, Python, Ruby, Design, Cyber Security">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                    $('.box').hover(function(){
+                        if($(window).width() > 768){
+                            $('.dots', $(this)).slideToggle(250, 'swing').display(250, 'swing');
+                        }
+                    });
+            });
+        </script>
+        <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+        <title>Anthony Kwang</title>
+    </head>
+    <body>
+        <header>
+           <h1><a href="index.html">ANTHONY KWANG <strong id="webdeveloper">TRANSMISSION</strong></a></h1>
+        </header>
+        <nav>
+            <div class="box"><a id="about" href="about.html">About <span class="dots">..........................................................></span><span class="maingreater">></span></a></div>
+            <div class="box"><a id="portfolio" href="portfolio.html">Portfolio <span class="dots">.......................................................></span><span class="maingreater">></span></a></div>
+            <div class="box"> <a id="blog" href="blog.html">Blog <span class="dots">............................................................></span><span class="maingreater">></span></a></div>
+            <div class="box"><a id="contact" href="contact.html">Contact <span class="dots">.......................................................></span><span class="maingreater">></span></a></div>
+        </nav>
+        <section id="funsites">
+            <ul>
+                <li><a href="https://www.nytimes.com/2020/06/05/world/asia/thailand-elephants-coronavirus.html?action=click&module=News&pgtype=Homepage" target="_blank">News</a></li>
+                <li><a href="https://www.youtube.com/watch?v=i2hTt2FxIYw" target="_blank">Audio/Visual Stimulation</a></li>
+                <li><a href="https://www.youtube.com/watch?v=kdHIqa53-tY" target="_blank">Movie of the Week</a></li>
+                <li><a href="https://www.marxists.org/reference/subject/philosophy/works/ge/benjamin.htm" target="_blank">Recommended Reading Material</a></li>
+            </ul>
+        </section>
+        <footer>
+            <p><b>//</b> A Subterranean Dynamics Production©</p>
+        </footer>
+    </body>
+</html>

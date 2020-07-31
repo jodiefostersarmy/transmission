@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="https://www.anthonykwang.com">
+
+   <url>
+
+      <loc>index.html</loc>
+
+      <lastmod>2020-04-06</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>about.html</loc>
+            
+      <lastmod>2020-04-06</lastmod>
+
+      <changefreq>quarterly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>portfolio.html</loc>
+
+      <lastmod>2020-04-06</lastmod>
+
+      <changefreq>quarterly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>blog.html</loc>
+
+      <lastmod>2020-04-06</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+
+   </url>
+
+   <url>
+
+      <loc>contact.html</loc>
+
+      <lastmod>2020-04-06</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+   </url>
+
+</urlset>
